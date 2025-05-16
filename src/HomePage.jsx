@@ -1,11 +1,11 @@
 import React from "react";
-
+import logo from "./logo.png"; // Ensure you have a logo image in the assets folder
 export default function HomePage() {
   return (
     <div className="min-h-screen bg-gray-50 text-gray-900">
       <header className="flex items-center justify-between px-6 py-4 bg-white shadow-md">
         <div className="flex items-center space-x-2">
-          <img src="/logo.png" alt="Cloudvantage Logo" className="h-8 w-8" />
+        <img src={logo} alt="Cloudvantage Logo" className="h-8 w-8" />
           <span className="text-xl font-bold text-blue-600">cloudvantage</span>
         </div>
         <nav className="space-x-6">
